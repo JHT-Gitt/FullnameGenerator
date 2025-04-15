@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class NameParser {
 
+    //Using LastIndex()
+
     static String firstName = "", middleName = "", lastName = "" , fullName;
     static int firstSpace, secondSpace;
 
