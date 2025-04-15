@@ -5,7 +5,7 @@ import java.util.*;
 public class FullName {
 
 
-    static String firstName = "", middleName = "", lastName = "" , suffix = "";
+    static String firstName = "", middleName = "", lastName = "" , suffix = "", fullName;
 
     public static void nameGenerator(){
 
@@ -23,15 +23,5 @@ public class FullName {
         System.out.printf("\nFull name: %s %s %s %s", firstName, middleName, lastName, suffix);
 
 
-
-
-
-
     }
-
-
-
-
-
-
 }
